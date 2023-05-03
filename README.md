@@ -99,11 +99,11 @@ Read [this](https://github.com/PR0FESS0R-99/Filter-Bot/blob/Professor-99/variabl
 
 <details><summary>Deploy To Rander</summary>
 <br>
-<p><a href="https://youtu.be/hDGgPNgjo9o">
+<p><a href="https://youtu.be/KR9KuIApxjs">
     Watch Deploying Tutorial...
 </a></p>
 
-<p><a href="https://render.com/deploy?repo=https://github.com/Pr0fess0r-99/FilterBot">
+<p><a href="https://render.com/deploy?repo=https://github.com/Learningbots79/Unlimited_Filter">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy">
 </a></p>
 </details>
