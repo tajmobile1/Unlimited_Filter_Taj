@@ -6,9 +6,9 @@
         "UNLIMITED",
         "Filter",
         "Telegram Bot",
-        "TroJanzHEX"
+        "Technical_Taj"
     ],
-    "website": "https://TroJanzHEX.me",
+    "website": "https://www.technicaltaj.com/",
     "repository": "https://github.com/TroJanzHEX/Unlimited-Filter-Bot",
     "success_url": "https://telegram.dog/TroJanzHEX",
     "env": {
