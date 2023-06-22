@@ -9,8 +9,8 @@
         "Technical_Taj"
     ],
     "website": "https://www.technicaltaj.com/",
-    "repository": "https://github.com/TroJanzHEX/Unlimited-Filter-Bot",
-    "success_url": "https://telegram.dog/TroJanzHEX",
+    "repository": "https://github.com/tajmobile1/Unlimited-Filter-Bot",
+    "success_url": "https://t.me/technicaltaj",
     "env": {
         "WEBHOOK": {
             "description": "No need to change this field!",
