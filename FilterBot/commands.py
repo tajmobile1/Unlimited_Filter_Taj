@@ -17,8 +17,8 @@ async def startCMD(client: FilterBot, message: Message):
       InlineKeyboardButton('Help', callback_data='main#help'),
       InlineKeyboardButton('About', callback_data='main#about')
       ],[
-      InlineKeyboardButton('Update', url='t.me/learningbots79'),
-      InlineKeyboardButton('Support', url='t.me/official_learning_bots_Support')
+      InlineKeyboardButton('Update', url='t.me/technicaltaj'),
+      InlineKeyboardButton('Support', url='t.me/technical_taj')
       ]]
 
     if "motech" == BOT_PICS[0]:
@@ -48,8 +48,8 @@ async def aboutCMD(client: FilterBot, message: Message):
     if not await db.is_user_exist(message.from_user.id):
         await db.add_user(message.from_user.first_name, message.from_user.id)
 
-    keyboard = [[ InlineKeyboardButton('• Tutorial •', url='https://youtu.be/KR9KuIApxjs'),
-                   InlineKeyboardButton('• Repo •', url='https://github.com/Learningbots79/Unlimited_Filter') ],
+    keyboard = [[ InlineKeyboardButton('• Tutorial •', url='https://youtu.be/technicaltaj'),
+                   InlineKeyboardButton('• Repo •', url='https://github.com/tajmobile1/Unlimited_Filter_Taj') ],
                 [ InlineKeyboardButton('• Home •', callback_data='main#start'),
                   InlineKeyboardButton('• Help •', callback_data='main#help') ]]
 
@@ -74,8 +74,8 @@ async def maincallback(client: FilterBot, message):
         keyboard = [[ InlineKeyboardButton('Add Me To Your Chat', url=f"t.me/{bot.username}?startgroup=true") ],
                     [ InlineKeyboardButton('Help', callback_data='main#help'),
                       InlineKeyboardButton('About', callback_data='main#about') ],
-                    [ InlineKeyboardButton('Update', url='t.me/learningbots79'),
-                      InlineKeyboardButton('Support', url='t.me/official_learning_bots_Support') ]]
+                    [ InlineKeyboardButton('Update', url='t.me/technicaltaj'),
+                      InlineKeyboardButton('Support', url='t.me/technical_taj') ]]
         await message.message.edit(text=StartTxT.format(mention=message.from_user.mention), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True)
 
     elif type == "help":
@@ -84,8 +84,8 @@ async def maincallback(client: FilterBot, message):
         await message.message.edit(text=HelpTxT, reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True)
 
     elif type == "about":
-        keyboard = [[ InlineKeyboardButton('Tutorial', url='https://youtu.be/KR9KuIApxjs'),
-                       InlineKeyboardButton('Repo', url='https://github.com/Learningbots79/Unlimited_Filter') ],
+        keyboard = [[ InlineKeyboardButton('Tutorial', url='https://youtu.be/technicaltaj'),
+                       InlineKeyboardButton('Repo', url='https://github.com/tajmobile1/Unlimited_Filter_Taj') ],
                     [ InlineKeyboardButton('Home', callback_data='main#start'),
                       InlineKeyboardButton('Help', callback_data='main#help') ]]
         await message.message.edit(text=AboutTxT, reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True)
